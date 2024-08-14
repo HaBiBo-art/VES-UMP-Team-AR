@@ -120,6 +120,7 @@ GameObject:
   - component: {fileID: 2889676763865140945}
   - component: {fileID: 5471469539622799460}
   - component: {fileID: 677416199492465790}
+  - component: {fileID: 533339317928519995}
   m_Layer: 0
   m_Name: TrainOnPlane
   m_TagString: Untagged
@@ -467,6 +468,18 @@ MonoBehaviour:
   m_ElasticRatioLimit: 0
   m_Sensitivity: 0.75
   m_Elasticity: 0.15
+--- !u!114 &533339317928519995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7466820194864097148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b4b58d1cfc7c8e44b3819913177aed8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2840733291700613658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,6 +488,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3176695193443993698}
     m_Modifications:
+    - target: {fileID: 3092401118483128891, guid: ef1204e82d7336b47b9aa437680c2dd1,
+        type: 3}
+      propertyPath: m_Name
+      value: PilotCabin
+      objectReference: {fileID: 0}
+    - target: {fileID: 3968028486090214634, guid: ef1204e82d7336b47b9aa437680c2dd1,
+        type: 3}
+      propertyPath: m_Name
+      value: PassengerCabin
+      objectReference: {fileID: 0}
     - target: {fileID: 7632150122589761866, guid: ef1204e82d7336b47b9aa437680c2dd1,
         type: 3}
       propertyPath: m_LocalPosition.x
