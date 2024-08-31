@@ -21,6 +21,7 @@ public class PlaceOnPlane : MonoBehaviour
         planecaster = FindObjectOfType<ARPlaneManager>(true);
         raycaster.enabled = true; // Enable the Components (safety meassure)
         planecaster.enabled = true;
+        
     }
 
     void Update()
