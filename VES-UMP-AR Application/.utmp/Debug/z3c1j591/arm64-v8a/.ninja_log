@@ -1,9 +1,0 @@
-# ninja log v5
-18	2082	7440441636433968	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	fd3f2716d15c6d85
-23	2089	7440441636352346	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	79d4ed7e86e0436f
-29	2204	7440441637803875	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	6fb2ba223a026b20
-0	2221	7440441638090242	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	bf37734c0e3b9ee2
-10	2251	7440441638618703	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	2772db9a436c05f8
-13	2345	7440441639576638	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	7c7969e13ff10ec9
-5	2460	7440441640451238	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	98aeeeacb3feea31
-2460	2712	7440441642474761	C:/Users/HaBiBo/Documents/GitHub/VES-UMP-Team-AR/VES-UMP-AR Application/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/z3c1j591/obj/arm64-v8a/libgame.so	de946407156851cb
