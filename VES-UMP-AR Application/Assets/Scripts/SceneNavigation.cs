@@ -10,6 +10,7 @@ public class SceneNavigation : MonoBehaviour
         // Reload the main scene named "MainScene", reinitializing all AR components
         SceneManager.LoadScene("MainScene");
     }
+
 }
 
 
