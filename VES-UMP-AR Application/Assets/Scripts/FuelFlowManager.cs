@@ -10,7 +10,7 @@ public class FuelFlowManager : MonoBehaviour
     public float spacing = 1f; // Spacing between circles
     public float startDelay = 0.5f; // Delay between each circle's animation start
 
-    void Start()
+    public void StartFuelAnimation()
     {
         StartCoroutine(StartCirclesWithDelay());
     }
