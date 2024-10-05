@@ -926,7 +926,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1041,7 +1041,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2377,6 +2377,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 7599522487954920464}
+--- !u!65 &1058773515
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058773508}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.06500008, y: 0.10453157, z: 0.06500005}
+  m_Center: {x: 0.027991906, y: 0.21275301, z: 0.006608528}
 --- !u!1 &1109178408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2537,7 +2558,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4208,7 +4229,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4885,7 +4906,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4997,7 +5018,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5715,7 +5736,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -11110,11 +11131,21 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3cd173ae4543f8745ac463237321e8db, type: 2}
+    - target: {fileID: 72975609746941311, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
     - target: {fileID: 120017733485988077, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: f9d3d0adb0578be45993c6728d3cc2dc, type: 2}
+    - target: {fileID: 247321795735326147, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
     - target: {fileID: 316363891302761045, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: m_Name
@@ -11260,6 +11291,16 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6bded294da3a9cf47bdb6b9259f86b49, type: 2}
+    - target: {fileID: 3157024210494642349, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
+    - target: {fileID: 3320267710176371483, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
     - target: {fileID: 3566362713244376739, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -11335,11 +11376,21 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b1ec81eca85a9d84ea5f62901c99f89d, type: 2}
+    - target: {fileID: 4876103676645786515, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
     - target: {fileID: 5081716390807091331, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d690ce46b58f6704caed1ffbff694459, type: 2}
+    - target: {fileID: 5090351107097838963, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
     - target: {fileID: 5136118239245042515, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -11360,6 +11411,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: f9d3d0adb0578be45993c6728d3cc2dc, type: 2}
+    - target: {fileID: 5340548204561837593, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
     - target: {fileID: 5408771049269249180, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -11370,6 +11426,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 3cd173ae4543f8745ac463237321e8db, type: 2}
+    - target: {fileID: 5550678156592650375, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_TagString
+      value: Piston
+      objectReference: {fileID: 0}
     - target: {fileID: 5745478548747400213, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -11563,6 +11624,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1058773511}
+    - targetCorrespondingSourceObject: {fileID: 4700961765500127762, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1058773515}
   m_SourcePrefab: {fileID: 100100000, guid: acecfaabc1a8857479c4bfd92c7df740, type: 3}
 --- !u!198 &2646449823240277687
 ParticleSystem:
