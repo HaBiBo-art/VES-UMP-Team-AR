@@ -163,12 +163,14 @@ public class ObjectInteractionHandler : MonoBehaviour
         }
         // Clear the original materials dictionary
         originalMaterials.Clear();
+        
     }
 
     public void ShowNoObjectSelectedMessage()
     {
         labelUI.gameObject.SetActive(false);
         noObjectSelectedMessage.gameObject.SetActive(true);
+        
         
     }
 
