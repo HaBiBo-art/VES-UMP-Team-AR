@@ -16,6 +16,8 @@ public class ObjectInteractionHandler : MonoBehaviour
     private GameObject trainCabinInteriorPrefab; // Reference to your 3D model prefab
     private Dictionary<Renderer, Material> originalMaterials = new Dictionary<Renderer, Material>(); // Store original materials
     private bool selectionModeActive = false;
+    public GameObject Obj_Name_Background;
+    public GameObject NoObjectSelected_Bg;
 
     void Start()
     {
@@ -29,6 +31,8 @@ public class ObjectInteractionHandler : MonoBehaviour
         // Add listeners to the buttons
         selectObjectButton.onClick.AddListener(ActivateSelectionMode);
         unselectObjectButton.onClick.AddListener(DeactivateSelectionMode);
+        Obj_Name_Background.SetActive(false);
+        NoObjectSelected_Bg.SetActive(false);
     }
 
     void Update()
@@ -49,6 +53,8 @@ public class ObjectInteractionHandler : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 HandleObjectSelection(hit.transform.gameObject);
+                Obj_Name_Background.SetActive(true);
+                NoObjectSelected_Bg.SetActive(false);
             }
             else
             {
@@ -57,8 +63,11 @@ public class ObjectInteractionHandler : MonoBehaviour
                 {
                     UnhighlightObject(selectedObject);
                     selectedObject = null; // Clear the selected object reference
+                    Obj_Name_Background.SetActive(false);
+                    NoObjectSelected_Bg.SetActive(true);
                 }
                 ShowNoObjectSelectedMessage();
+                
             }
         }
         // Enable and Disable the Box Collider of the "Train cabin interior" prefab (for the selection vizualisation)
@@ -71,6 +80,8 @@ public class ObjectInteractionHandler : MonoBehaviour
         ShowNoObjectSelectedMessage();
         selectObjectButton.gameObject.SetActive(false);
         unselectObjectButton.gameObject.SetActive(true);
+        NoObjectSelected_Bg.SetActive(true);
+        
 
     }
 
@@ -79,16 +90,20 @@ public class ObjectInteractionHandler : MonoBehaviour
         selectionModeActive = false;
         HideLabel();
         noObjectSelectedMessage.gameObject.SetActive(false);
+        Obj_Name_Background.SetActive(false);
 
         // Unhighlight the selected object if any
         if (selectedObject != null)
         {
             UnhighlightObject(selectedObject);
             selectedObject = null; // Clear the selected object reference
+            
         }
 
         selectObjectButton.gameObject.SetActive(true);
         unselectObjectButton.gameObject.SetActive(false);
+        NoObjectSelected_Bg.SetActive(false);
+        
 
         // Unhide all objects in the "Train cabin interior" prefab
         foreach (Transform child in trainCabinInteriorPrefab.transform)
@@ -154,6 +169,7 @@ public class ObjectInteractionHandler : MonoBehaviour
     {
         labelUI.gameObject.SetActive(false);
         noObjectSelectedMessage.gameObject.SetActive(true);
+        
     }
 
     void HideLabel()
