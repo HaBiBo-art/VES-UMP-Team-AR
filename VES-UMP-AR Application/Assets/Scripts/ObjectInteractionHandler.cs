@@ -18,6 +18,9 @@ public class ObjectInteractionHandler : MonoBehaviour
     private bool selectionModeActive = false;
     public GameObject Obj_Name_Background;
     public GameObject NoObjectSelected_Bg;
+    
+    // Audio source for each object
+    private AudioSource objectAudioSource;
 
     void Start()
     {
@@ -43,7 +46,6 @@ public class ObjectInteractionHandler : MonoBehaviour
             // Check if the mouse is over a UI element
             if (EventSystem.current.IsPointerOverGameObject())
             {
-                // If it's over a UI element, do nothing
                 return;
             }
 
@@ -62,15 +64,15 @@ public class ObjectInteractionHandler : MonoBehaviour
                 if (selectedObject != null)
                 {
                     UnhighlightObject(selectedObject);
-                    selectedObject = null; // Clear the selected object reference
+                    selectedObject = null;
                     Obj_Name_Background.SetActive(false);
                     NoObjectSelected_Bg.SetActive(true);
                 }
                 ShowNoObjectSelectedMessage();
-                
             }
         }
-        // Enable and Disable the Box Collider of the "Train cabin interior" prefab (for the selection vizualisation)
+
+        // Enable and Disable the Box Collider of the "Train cabin interior" prefab (for the selection visualization)
         BoxCollider boxCollider = trainCabinInteriorPrefab.GetComponent<BoxCollider>();
     }
 
@@ -81,11 +83,9 @@ public class ObjectInteractionHandler : MonoBehaviour
         selectObjectButton.gameObject.SetActive(false);
         unselectObjectButton.gameObject.SetActive(true);
         NoObjectSelected_Bg.SetActive(true);
-        
-
     }
 
-    void DeactivateSelectionMode()
+    public void DeactivateSelectionMode()
     {
         selectionModeActive = false;
         HideLabel();
@@ -96,21 +96,18 @@ public class ObjectInteractionHandler : MonoBehaviour
         if (selectedObject != null)
         {
             UnhighlightObject(selectedObject);
-            selectedObject = null; // Clear the selected object reference
-            
+            selectedObject = null;
         }
 
         selectObjectButton.gameObject.SetActive(true);
         unselectObjectButton.gameObject.SetActive(false);
         NoObjectSelected_Bg.SetActive(false);
-        
 
         // Unhide all objects in the "Train cabin interior" prefab
         foreach (Transform child in trainCabinInteriorPrefab.transform)
         {
             child.gameObject.SetActive(true);
         }
-
     }
 
     void HandleObjectSelection(GameObject touchedObject)
@@ -131,6 +128,17 @@ public class ObjectInteractionHandler : MonoBehaviour
 
         // Hide the "No object selected" message
         noObjectSelectedMessage.gameObject.SetActive(false);
+
+        // Play the audio for the selected object
+        AudioSource audioSource = touchedObject.GetComponent<AudioSource>();
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
+        else
+        {
+            Debug.LogWarning("No AudioSource attached to the selected object.");
+        }
     }
 
     void HighlightObject(GameObject obj)
@@ -163,15 +171,12 @@ public class ObjectInteractionHandler : MonoBehaviour
         }
         // Clear the original materials dictionary
         originalMaterials.Clear();
-        
     }
 
     public void ShowNoObjectSelectedMessage()
     {
         labelUI.gameObject.SetActive(false);
         noObjectSelectedMessage.gameObject.SetActive(true);
-        
-        
     }
 
     void HideLabel()
@@ -179,4 +184,3 @@ public class ObjectInteractionHandler : MonoBehaviour
         labelUI.gameObject.SetActive(false);
     }
 }
-
