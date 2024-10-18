@@ -3478,8 +3478,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 735421a76d40b6d4e862f350b2f99105, type: 3}
-  m_Resource: {fileID: 8300000, guid: 735421a76d40b6d4e862f350b2f99105, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 97ce22779a56db34eb9a4f3605490efd, type: 3}
+  m_Resource: {fileID: 8300000, guid: 97ce22779a56db34eb9a4f3605490efd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13625,6 +13625,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: d690ce46b58f6704caed1ffbff694459, type: 2}
+    - target: {fileID: 2631774357523778550, guid: acecfaabc1a8857479c4bfd92c7df740,
+        type: 3}
+      propertyPath: m_Name
+      value: Electrical cabin
+      objectReference: {fileID: 0}
     - target: {fileID: 2753310542929673838, guid: acecfaabc1a8857479c4bfd92c7df740,
         type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
