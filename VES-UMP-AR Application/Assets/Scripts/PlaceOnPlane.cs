@@ -17,6 +17,7 @@ public class PlaceOnPlane : MonoBehaviour
 
     void Start()
     {
+        //Destroy(placedObject);
         raycaster = FindObjectOfType<ARRaycastManager>(true); // Populating AR Components automatically
         planecaster = FindObjectOfType<ARPlaneManager>(true);
         raycaster.enabled = true; // Enable the Components (safety meassure)

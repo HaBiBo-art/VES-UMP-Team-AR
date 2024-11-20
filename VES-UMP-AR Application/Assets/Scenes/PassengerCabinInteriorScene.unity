@@ -406,6 +406,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seats&tables
       objectReference: {fileID: 0}
+    - target: {fileID: 590983490500088927, guid: a561f1086c1b17d468d3561f48865e2e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 609513222030200931, guid: a561f1086c1b17d468d3561f48865e2e,
         type: 3}
       propertyPath: m_CastShadows
