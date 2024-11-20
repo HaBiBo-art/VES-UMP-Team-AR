@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: English_UI_ms-MY
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ms-MY
+  m_SharedData: {fileID: 11400000, guid: 7159eb3eb53850642bcc5616e15baf3a, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 3494997157969396160
+  m_TableData:
+  - m_Id: 1206489817088
+    m_Localized: Bangunan ini dibina pada tahun 1929 sebagai kediaman Residen British,
+      menggantikan bangunan kayu asal dari tahun 1888. Semasa Perang Dunia Kedua,
+      ia dijadikan kediaman pegawai Jepun.
+    m_Metadata:
+      m_Items:
+      - rid: 3494997157969396160
+  - m_Id: 4266951811072
+    m_Localized: Selamat datang ke Muzium Sultan Abu Bakar Pekan, Pahang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4438117163008
+    m_Localized: Aplikasi ini dibangunkan sebagai sebahagian daripada projek Angkasa
+      Pameran Maya oleh Universiti Malaysia Pahang Al-Sultan Abdullah dan dengan
+      kerjasama universiti di Jerman, Tunisia dan Oman. Kami harap anda seronok mencuba
+      aplikasi ini dan semoga anda menikmati penginapan yang menyenangkan di muzium.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4513375559680
+    m_Localized: Jom Mula
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4654471946240
+    m_Localized: Maklumat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4707982876672
+    m_Localized: Meneroka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4802719621120
+    m_Localized: Ciri AR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748493230080
+    m_Localized: Balik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6161711865856
+    m_Localized: Maklumat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6294172180480
+    m_Localized: Mengenai Muzium Sultan Abu Bakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6676013228032
+    m_Localized: Mengenai KTM Kelas 22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6832238469120
+    m_Localized: Mengenai Laluan Rimba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8133307375616
+    m_Localized: Mengenai Laluan Rimba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8407388364800
+    m_Localized: Mengenai KTM Kelas 22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8502242549760
+    m_Localized: Mengenai Muzium Sultan Abu Bakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13695654928384
+    m_Localized: Balik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13840568131584
+    m_Localized: Ciri AR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13978829168640
+    m_Localized: Ketik untuk menerokai ciri realiti tambahan, berinteraksi dengan
+      model kereta api 3D dan melihat animasi aspek teknikal kereta api.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3494997157969396160
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00a065e818010000

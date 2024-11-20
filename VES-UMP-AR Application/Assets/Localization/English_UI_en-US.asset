@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: English_UI_en-US
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en-US
+  m_SharedData: {fileID: 11400000, guid: 7159eb3eb53850642bcc5616e15baf3a, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 3494997157969396159
+  m_TableData:
+  - m_Id: 1206489817088
+    m_Localized: This building was constructed in 1929 as the residence for the British
+      Resident, replacing the original wooden structure built in 1888. During World
+      War II, it served as the residence for Japanese officers.
+    m_Metadata:
+      m_Items:
+      - rid: 3494997157969396159
+  - m_Id: 4654471946240
+    m_Localized: Information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4707982876672
+    m_Localized: Explore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4802719621120
+    m_Localized: AR Feature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4266951811072
+    m_Localized: "Welcome to \LMuseum Sultan Abu Bakar \L Pekan, Pahang"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4438117163008
+    m_Localized: The app was developed as part of the Virtual Exhibition Space project
+      by the Universiti Malaysia Pahang Al-Sultan Abdullah and in cooperation with
+      universities in Germany, Tunisia and Oman. We hope you enjoy trying out the
+      app and wish you a pleasant stay at the museum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4513375559680
+    m_Localized: Let's Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748493230080
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6161711865856
+    m_Localized: Information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6294172180480
+    m_Localized: About the Museum Sultan Abu Bakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6676013228032
+    m_Localized: About the KTM Class 22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6832238469120
+    m_Localized: About the Jungle Route
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7225693544448
+    m_Localized: ' In 1948, the building was restored and became the official residence
+      of Sultan Abu Bakar, known as "Istana Kota Beram," replacing Istana Sri Terentang'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7267871465472
+    m_Localized: In 1954, an extension was added to serve as the Balairong. After
+      a new palace was built between 1959-1965 for the Sultan of Pahang, the Pahang
+      State Museum Board took over the building on 17 March 1976.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7605189976064
+    m_Localized: 'The museum was officially opened as the "Sultan Abu Bakar Museum"
+      on 21 October 1976 by Sultan Haji Ahmad Shah. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7731174285312
+    m_Localized: 'The KTM Class 22 locomotives, designed by English Electric-AEI
+      Traction and built by Metro-Cammell, are dual cab, full-width general-purpose
+      engines. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7759963987968
+    m_Localized: They feature a robust single truss structure, bolstered bogies,
+      and a 1,760 bhp turbocharged V-8 engine. Originally fitted with English Electric's
+      AEI-253 motors, the locomotives were notable for their increased power over
+      earlier models.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7781807923200
+    m_Localized: After being withdrawn from passenger service in 2010, four were
+      preserved as exhibits, three were sold for civil engineering, with one refurbished
+      for Bangladesh. Two Class 22s still serve as shunting trains for Emrail Sdn
+      Bhd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7856592363520
+    m_Localized: The railway system in Pahang is part of the East Coast Line, also
+      known as the "jungle route" because it passes through remote and forested areas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7878247555072
+    m_Localized: 'The construction of this line by the British began in 1909, aimed
+      at developing Pahang and Kelantan, rich in minerals and agriculture. However,
+      construction faced delays due to floods, disease outbreaks, and World War I
+      (1914-1918). '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906332614656
+    m_Localized: 'The East Coast Line was officially opened on 9 September 1931 by
+      Sultan Ismail of Kelantan and Sir Cecil Clementi Smith, the Governor of the
+      Straits Settlements. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7932756729856
+    m_Localized: Today, there are 24 railway stations in Pahang, and the line runs
+      527.5 kilometers from Gemas, through Kuala Lipis, to Tumpat, Kelantan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8133307375616
+    m_Localized: About the Jungle Route
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8407388364800
+    m_Localized: 'About the KTM Class 22 '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8502242549760
+    m_Localized: About the Museum Sultan Abu Bakar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13695654928384
+    m_Localized: 'Back '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13840568131584
+    m_Localized: AR Features
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13978829168640
+    m_Localized: "Tap to explore the augmented reality features, interact with the
+      3D train model, and view animations of the train\u2019s technical aspects."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3494997157969396159
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00a065e818010000
