@@ -20,25 +20,25 @@ MonoBehaviour:
     - rid: 3494997157969396160
   m_TableData:
   - m_Id: 1206489817088
-    m_Localized: Bangunan ini dibina pada tahun 1929 sebagai kediaman Residen British,
-      menggantikan bangunan kayu asal dari tahun 1888. Semasa Perang Dunia Kedua,
-      ia dijadikan kediaman pegawai Jepun.
+    m_Localized: Bangunan ini dibina pada tahun 1929 sebagai kediaman bagi Residen
+      British, menggantikan struktur kayu asal yang dibina pada tahun 1888. Semasa
+      Perang Dunia Kedua, ia berfungsi sebagai kediaman bagi pegawai-pegawai Jepun.
     m_Metadata:
       m_Items:
       - rid: 3494997157969396160
   - m_Id: 4266951811072
-    m_Localized: Selamat datang ke Muzium Sultan Abu Bakar Pekan, Pahang
+    m_Localized: "Selamat Datang ke\nMuzium Sultan Abu Bakar \L Pekan"
     m_Metadata:
       m_Items: []
   - m_Id: 4438117163008
-    m_Localized: Aplikasi ini dibangunkan sebagai sebahagian daripada projek Angkasa
-      Pameran Maya oleh Universiti Malaysia Pahang Al-Sultan Abdullah dan dengan
-      kerjasama universiti di Jerman, Tunisia dan Oman. Kami harap anda seronok mencuba
-      aplikasi ini dan semoga anda menikmati penginapan yang menyenangkan di muzium.
+    m_Localized: Aplikasi ini dihasilkan sebagai sebahagian daripada projek Ruang
+      Pameran Maya oleh Universiti Malaysia Pahang Al-Sultan Abdullah dengan kerjasama
+      universiti-universiti dari Jerman, Tunisia, dan Oman. Kami berharap anda menikmati
+      penggunaan aplikasi ini dan selamat datang ke Muzium Sultan Abu Bakar.
     m_Metadata:
       m_Items: []
   - m_Id: 4513375559680
-    m_Localized: Jom Mula
+    m_Localized: 'Mula ! '
     m_Metadata:
       m_Items: []
   - m_Id: 4654471946240
@@ -46,15 +46,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4707982876672
-    m_Localized: Meneroka
+    m_Localized: Explorasi
     m_Metadata:
       m_Items: []
   - m_Id: 4802719621120
-    m_Localized: Ciri AR
+    m_Localized: Kembara AR
     m_Metadata:
       m_Items: []
   - m_Id: 5748493230080
-    m_Localized: Balik
+    m_Localized: Kembali
     m_Metadata:
       m_Items: []
   - m_Id: 6161711865856
@@ -70,7 +70,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 6832238469120
-    m_Localized: Mengenai Laluan Rimba
+    m_Localized: Mengenai Laluan Hutan
     m_Metadata:
       m_Items: []
   - m_Id: 8133307375616
@@ -86,16 +86,78 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 13695654928384
-    m_Localized: Balik
+    m_Localized: Kembali
     m_Metadata:
       m_Items: []
   - m_Id: 13840568131584
-    m_Localized: Ciri AR
+    m_Localized: Kembara AR
     m_Metadata:
       m_Items: []
   - m_Id: 13978829168640
-    m_Localized: Ketik untuk menerokai ciri realiti tambahan, berinteraksi dengan
-      model kereta api 3D dan melihat animasi aspek teknikal kereta api.
+    m_Localized: Ketik untuk meneroka ciri AR, berinteraksi dengan model kereta api
+      3D, dan melihat animasi aspek teknikal kereta api.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7225693544448
+    m_Localized: Pada tahun 1948, bangunan ini dipulihkan dan menjadi kediaman rasmi
+      Sultan Abu Bakar, dikenali sebagai "Istana Kota Beram," menggantikan Istana
+      Sri Terentang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7267871465472
+    m_Localized: Pada tahun 1954, satu tambahan dibina untuk dijadikan Balairong.
+      Setelah istana baru dibina antara tahun 1959-1965 untuk Sultan Pahang, Lembaga
+      Muzium Negeri Pahang mengambil alih bangunan ini pada 17 Mac 1976.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7605189976064
+    m_Localized: Muzium ini telah dibuka secara rasmi sebagai "Muzium Sultan Abu
+      Bakar" pada 21 Oktober 1976 oleh Sultan Haji Ahmad Shah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7731174285312
+    m_Localized: Lokomotif KTM Kelas 22, yang direka oleh English Electric-AEI Traction
+      dan dibina oleh Metro-Cammell, merupakan enjin tujuan am dengan kabin dua sisi
+      dan lebar penuh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7759963987968
+    m_Localized: Ia mempunyai struktur truss tunggal yang kukuh, bogi diperkuat,
+      dan enjin turbo V-8 berkuasa 1,760 bhp. Lokomotif ini asalnya dilengkapi motor
+      AEI-253 dari English Electric dan terkenal dengan kuasa yang lebih tinggi berbanding
+      model sebelumnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7781807923200
+    m_Localized: Selepas dihentikan dari perkhidmatan penumpang pada tahun 2010,
+      empat lokomotif disimpan sebagai eksibit, tiga dijual untuk kejuruteraan awam,
+      dan satu diperbaharui untuk Bangladesh. Dua Kelas 22 masih digunakan sebagai
+      kereta api penyusunan untuk Emrail Sdn Bhd.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7878247555072
+    m_Localized: Pembinaan laluan ini oleh British bermula pada tahun 1909, bertujuan
+      untuk membangunkan Pahang dan Kelantan yang kaya dengan mineral dan pertanian.
+      Namun, pembinaan menghadapi kelewatan disebabkan banjir, wabak penyakit, dan
+      Perang Dunia I (1914-1918).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906332614656
+    m_Localized: Laluan Pantai Timur dibuka secara rasmi pada 9 September 1931 oleh
+      Sultan Ismail dari Kelantan dan Sir Cecil Clementi Smith, Gabenor Penempatan
+      Selat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7932756729856
+    m_Localized: Pada hari ini, terdapat 24 stesen kereta api di Pahang, dan laluan
+      ini meliputi 527.5 kilometer dari Gemas, melalui Kuala Lipis, hingga Tumpat,
+      Kelantan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7856592363520
+    m_Localized: Sistem kereta api di Pahang adalah sebahagian daripada Laluan Pantai
+      Timur, juga dikenali sebagai "laluan hutan" kerana ia melalui kawasan terpencil
+      dan berhutan.
     m_Metadata:
       m_Items: []
   references:

@@ -110,4 +110,12 @@ public class TrainPartClickHandler : MonoBehaviour
         }
     }
 
+    public void OnShowEngineCabinInteriorButtonClick()
+    {
+        if (!string.IsNullOrEmpty("PilotCabinInteriorScene"))
+        {
+            SceneManager.LoadScene("PilotCabinInteriorScene");
+        }
+    }
+
 }

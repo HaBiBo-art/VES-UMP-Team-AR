@@ -214,9 +214,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The construction of this line by the British began in 1909, aimed at developing
-    Pahang and Kelantan, rich in minerals and agriculture. However, construction
-    faced delays due to floods, disease outbreaks, and World War I (1914-1918).
+  m_text: Pembinaan laluan ini oleh British bermula pada tahun 1909, bertujuan untuk
+    membangunkan Pahang dan Kelantan yang kaya dengan mineral dan pertanian. Namun,
+    pembinaan menghadapi kelewatan disebabkan banjir, wabak penyakit, dan Perang
+    Dunia I (1914-1918).
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0975e7cce8ef67a49a23e87e6174443f, type: 2}
   m_sharedMaterial: {fileID: 3739354241083402224, guid: 0975e7cce8ef67a49a23e87e6174443f,
@@ -2860,8 +2861,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Today, there are 24 railway stations in Pahang, and the line runs 527.5
-    kilometers from Gemas, through Kuala Lipis, to Tumpat, Kelantan.
+  m_text: Pada hari ini, terdapat 24 stesen kereta api di Pahang, dan laluan ini
+    meliputi 527.5 kilometer dari Gemas, melalui Kuala Lipis, hingga Tumpat, Kelantan.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0975e7cce8ef67a49a23e87e6174443f, type: 2}
   m_sharedMaterial: {fileID: 3739354241083402224, guid: 0975e7cce8ef67a49a23e87e6174443f,
@@ -3059,7 +3060,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 325101377}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -3582,6 +3583,10 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 3494997157969396190
+          - rid: 3494997203708805200
+          - rid: 3494997203708805201
+          - rid: 3494997203708805206
+          - rid: 3494997203708805209
         m_UpdateType: 0
     - rid: 3494997157969396190
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
@@ -3597,6 +3602,42 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
+    - rid: 3494997203708805200
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontSize
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 12
+    - rid: 3494997203708805201
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontSizeBase
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 12
+    - rid: 3494997203708805206
+      type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontStyle
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 0
+    - rid: 3494997203708805209
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_characterSpacing
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 2.77
 --- !u!1 &362806425
 GameObject:
   m_ObjectHideFlags: 0
@@ -5403,6 +5444,9 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en-US
           value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 1
     - rid: 3494997157969396163
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -5411,6 +5455,9 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en-US
+          value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
           value: 1
 --- !u!1 &514096303
 GameObject:
@@ -6010,8 +6057,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The railway system in Pahang is part of the East Coast Line, also known
-    as the "jungle route" because it passes through remote and forested areas. '
+  m_text: Sistem kereta api di Pahang adalah sebahagian daripada Laluan Pantai Timur,
+    juga dikenali sebagai "laluan hutan" kerana ia melalui kawasan terpencil dan
+    berhutan.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0975e7cce8ef67a49a23e87e6174443f, type: 2}
   m_sharedMaterial: {fileID: 3739354241083402224, guid: 0975e7cce8ef67a49a23e87e6174443f,
@@ -8224,10 +8272,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'They feature a robust single truss structure, bolstered bogies, and a
-    1,760 bhp turbocharged V-8 engine. Originally fitted with English Electric''s
-    AEI-253 motors, the locomotives were notable for their increased power over earlier
-    models. '
+  m_text: Ia mempunyai struktur truss tunggal yang kukuh, bogi diperkuat, dan enjin
+    turbo V-8 berkuasa 1,760 bhp. Lokomotif ini asalnya dilengkapi motor AEI-253
+    dari English Electric dan terkenal dengan kuasa yang lebih tinggi berbanding
+    model sebelumnya.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0975e7cce8ef67a49a23e87e6174443f, type: 2}
   m_sharedMaterial: {fileID: 3739354241083402224, guid: 0975e7cce8ef67a49a23e87e6174443f,
@@ -8510,6 +8558,10 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 3494997157969396188
+          - rid: 3494997203708805202
+          - rid: 3494997203708805203
+          - rid: 3494997203708805207
+          - rid: 3494997203708805210
         m_UpdateType: 0
     - rid: 3494997157969396188
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
@@ -8525,6 +8577,42 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
+    - rid: 3494997203708805202
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontSize
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 12
+    - rid: 3494997203708805203
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontSizeBase
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 12
+    - rid: 3494997203708805207
+      type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontStyle
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 0
+    - rid: 3494997203708805210
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_characterSpacing
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 2.77
 --- !u!1 &860963917
 GameObject:
   m_ObjectHideFlags: 0
@@ -9373,9 +9461,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The East Coast Line was officially opened on 9 September 1931 by Sultan
-    Ismail of Kelantan and Sir Cecil Clementi Smith, the Governor of the Straits
-    Settlements.
+  m_text: Laluan Pantai Timur dibuka secara rasmi pada 9 September 1931 oleh Sultan
+    Ismail dari Kelantan dan Sir Cecil Clementi Smith, Gabenor Penempatan Selat.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0975e7cce8ef67a49a23e87e6174443f, type: 2}
   m_sharedMaterial: {fileID: 3739354241083402224, guid: 0975e7cce8ef67a49a23e87e6174443f,
@@ -10266,6 +10353,9 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en-US
           value: 0.14421302
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 0.14421302
     - rid: 3494997157969396166
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -10275,6 +10365,9 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en-US
           value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 1
     - rid: 3494997157969396167
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -10283,6 +10376,9 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en-US
+          value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
           value: 1
 --- !u!1 &974323566
 GameObject:
@@ -10927,6 +11023,9 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en-US
           value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 1
     - rid: 3494997157969396170
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -10935,6 +11034,9 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en-US
+          value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
           value: 1
     - rid: 3494997157969396171
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
@@ -10945,6 +11047,9 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en-US
           value: -17
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: -17
     - rid: 3494997157969396172
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -10953,6 +11058,9 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en-US
+          value: -17
+        - localeIdentifier:
+            m_Code: ms-MY
           value: -17
 --- !u!1 &1037294140
 GameObject:
@@ -11887,7 +11995,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1088115798}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -13651,6 +13759,10 @@ MonoBehaviour:
         m_TrackedProperties:
           items:
           - rid: 3494997157969396192
+          - rid: 3494997203708805204
+          - rid: 3494997203708805205
+          - rid: 3494997203708805208
+          - rid: 3494997203708805211
         m_UpdateType: 0
     - rid: 3494997157969396192
       type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
@@ -13666,6 +13778,42 @@ MonoBehaviour:
           m_WaitForCompletion: 0
           m_LocalVariables: []
         m_PropertyPath: m_text
+    - rid: 3494997203708805204
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontSize
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 12
+    - rid: 3494997203708805205
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontSizeBase
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 12
+    - rid: 3494997203708805208
+      type: {class: EnumTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_fontStyle
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 0
+    - rid: 3494997203708805211
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_characterSpacing
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 2.77
 --- !u!1 &1271514052
 GameObject:
   m_ObjectHideFlags: 0
@@ -14289,9 +14437,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: After being withdrawn from passenger service in 2010, four were preserved
-    as exhibits, three were sold for civil engineering, with one refurbished for
-    Bangladesh. Two Class 22s still serve as shunting trains for Emrail Sdn Bhd.
+  m_text: Selepas dihentikan dari perkhidmatan penumpang pada tahun 2010, empat lokomotif
+    disimpan sebagai eksibit, tiga dijual untuk kejuruteraan awam, dan satu diperbaharui
+    untuk Bangladesh. Dua Kelas 22 masih digunakan sebagai kereta api penyusunan
+    untuk Emrail Sdn Bhd.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0975e7cce8ef67a49a23e87e6174443f, type: 2}
   m_sharedMaterial: {fileID: 3739354241083402224, guid: 0975e7cce8ef67a49a23e87e6174443f,
@@ -16837,6 +16986,7 @@ GameObject:
   - component: {fileID: 1628567076}
   - component: {fileID: 1628567075}
   - component: {fileID: 1628567074}
+  - component: {fileID: 1628567077}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -16970,6 +17120,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628567072}
   m_CullTransparentMesh: 1
+--- !u!114 &1628567077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628567072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjects:
+  - rid: 3494997203708805215
+  references:
+    version: 2
+    RefIds:
+    - rid: 3494997203708805215
+      type: {class: TrackedRectTransform, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects,
+        asm: Unity.Localization}
+      data:
+        m_Target: {fileID: 1628567073}
+        m_TrackedProperties:
+          items:
+          - rid: 3494997203708805216
+          - rid: 3494997203708805217
+    - rid: 3494997203708805216
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_AnchoredPosition.x
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 169.71432
+    - rid: 3494997203708805217
+      type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
+        asm: Unity.Localization}
+      data:
+        m_PropertyPath: m_SizeDelta.x
+        m_VariantData:
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 133.508
 --- !u!1 &1659551420
 GameObject:
   m_ObjectHideFlags: 0
@@ -17227,7 +17421,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1659571160}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -20275,6 +20469,9 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en-US
           value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 1
     - rid: 3494997157969396175
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -20283,6 +20480,9 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en-US
+          value: -17
+        - localeIdentifier:
+            m_Code: ms-MY
           value: -17
 --- !u!1 &1866664217
 GameObject:
@@ -21153,6 +21353,9 @@ MonoBehaviour:
         - localeIdentifier:
             m_Code: en-US
           value: 1
+        - localeIdentifier:
+            m_Code: ms-MY
+          value: 1
     - rid: 3494997157969396178
       type: {class: FloatTrackedProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties,
         asm: Unity.Localization}
@@ -21161,6 +21364,9 @@ MonoBehaviour:
         m_VariantData:
         - localeIdentifier:
             m_Code: en-US
+          value: -17
+        - localeIdentifier:
+            m_Code: ms-MY
           value: -17
 --- !u!1 &1930855724
 GameObject:
