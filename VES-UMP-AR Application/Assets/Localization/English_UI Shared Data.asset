@@ -127,6 +127,46 @@ MonoBehaviour:
     m_Key: WelcomeScreen/Canvas/ARInitScreen/DescBg/Paragraph
     m_Metadata:
       m_Items: []
+  - m_Id: 534460060934144
+    m_Key: PilotCabinInteriorScene/UI/Canvas/BackButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534568429166592
+    m_Key: PilotCabinInteriorScene/UI/Canvas/ShowEngine/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534591762079744
+    m_Key: PilotCabinInteriorScene/UI/Canvas/Select Object/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534942368145408
+    m_Key: PilotCabinInteriorScene/UI/Canvas/UnSelect Object /Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535238179823616
+    m_Key: PilotCabinInteriorScene/UI/Canvas/Animate Piston/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535365162377216
+    m_Key: PilotCabinInteriorScene/UI/Canvas/StopAnimation/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535544674394112
+    m_Key: PilotCabinInteriorScene/UI/Canvas/UnShowEngine /Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535587288522752
+    m_Key: PilotCabinInteriorScene/UI/Canvas/HideBloc/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535712530440192
+    m_Key: PilotCabinInteriorScene/UI/Canvas/ShowVideo/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535819942371328
+    m_Key: PilotCabinInteriorScene/UI/Canvas/UnshowVideo/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

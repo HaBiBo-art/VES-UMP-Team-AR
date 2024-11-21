@@ -160,6 +160,50 @@ MonoBehaviour:
       dan berhutan.
     m_Metadata:
       m_Items: []
+  - m_Id: 534460060934144
+    m_Localized: Kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534568429166592
+    m_Localized: tunjukkan enjin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534591762079744
+    m_Localized: pilih objek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534942368145408
+    m_Localized: NyahPilih Objek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535238179823616
+    m_Localized: menghidupkan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535365162377216
+    m_Localized: Hentikan Animasi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535544674394112
+    m_Localized: NyahPamerkan Enjin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535587288522752
+    m_Localized: Sembunyikan Blok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535712530440192
+    m_Localized: 'Simulasikan
+
+      Motor Daya tarikan'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535819942371328
+    m_Localized: 'Sembunyi
+
+      Simulasi'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
