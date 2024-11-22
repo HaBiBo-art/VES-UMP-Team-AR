@@ -72,4 +72,8 @@ public class PlaceOnPlane : MonoBehaviour
                                                                                                        // pose with the right rotation
         }
     }
+    public void DestroyObject()
+    {
+        Destroy(placedObject);
+    }
 }

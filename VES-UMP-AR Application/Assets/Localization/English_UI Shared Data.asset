@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: English_UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: English_UI
+  m_TableCollectionNameGuidString: 7159eb3eb53850642bcc5616e15baf3a
+  m_Entries:
+  - m_Id: 1206489817088
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_/Item1_Expanded/Paragraph1/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4266951811072
+    m_Key: WelcomeScreen/Canvas/HomeScreen/Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4438117163008
+    m_Key: WelcomeScreen/Canvas/HomeScreen/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4513375559680
+    m_Key: WelcomeScreen/Canvas/HomeScreen/Let'sStart/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4654471946240
+    m_Key: WelcomeScreen/Canvas/NavigationScreen/Information/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4707982876672
+    m_Key: WelcomeScreen/Canvas/NavigationScreen/Explore/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4802719621120
+    m_Key: WelcomeScreen/Canvas/NavigationScreen/AR Features/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5748493230080
+    m_Key: WelcomeScreen/Canvas/InformationScreen/BackButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6161711865856
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/InfoContainer/Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6294172180480
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_/Item1_Reduced/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6676013228032
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_2_/Item2_Reduced/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6832238469120
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_3_/Item3_Reduced/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7225693544448
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_/Item1_Expanded/Paragraph2/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7267871465472
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_/Item1_Expanded/Paragraph4/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7605189976064
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_/Item1_Expanded/Paragraph5/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7731174285312
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_2_/Item2_Expanded/Paragraph1/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7759963987968
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_2_/Item2_Expanded/Paragraph3/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7781807923200
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_2_/Item2_Expanded/Paragraph4/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7856592363520
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_3_/Item3_Expanded/Paragraph2/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7878247555072
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_3_/Item3_Expanded/Paragraph3/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7906332614656
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_3_/Item3_Expanded/Paragraph4/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7932756729856
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_3_/Item3_Expanded/Paragraph5/Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8133307375616
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_3_/Item3_Expanded/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8407388364800
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_2_/Item2_Expanded/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8502242549760
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_/Item1_Expanded/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13695654928384
+    m_Key: WelcomeScreen/Canvas/ARInitScreen/BackButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13840568131584
+    m_Key: WelcomeScreen/Canvas/ARInitScreen/InfoContainer/Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13978829168640
+    m_Key: WelcomeScreen/Canvas/ARInitScreen/DescBg/Paragraph
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534460060934144
+    m_Key: PilotCabinInteriorScene/UI/Canvas/BackButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534568429166592
+    m_Key: PilotCabinInteriorScene/UI/Canvas/ShowEngine/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534591762079744
+    m_Key: PilotCabinInteriorScene/UI/Canvas/Select Object/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534942368145408
+    m_Key: PilotCabinInteriorScene/UI/Canvas/UnSelect Object /Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535238179823616
+    m_Key: PilotCabinInteriorScene/UI/Canvas/Animate Piston/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535365162377216
+    m_Key: PilotCabinInteriorScene/UI/Canvas/StopAnimation/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535544674394112
+    m_Key: PilotCabinInteriorScene/UI/Canvas/UnShowEngine /Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535587288522752
+    m_Key: PilotCabinInteriorScene/UI/Canvas/HideBloc/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535712530440192
+    m_Key: PilotCabinInteriorScene/UI/Canvas/ShowVideo/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 535819942371328
+    m_Key: PilotCabinInteriorScene/UI/Canvas/UnshowVideo/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3494997157969396154
+  references:
+    version: 2
+    RefIds:
+    - rid: 3494997157969396154
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1732094894660
