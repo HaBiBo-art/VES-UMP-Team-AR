@@ -167,6 +167,20 @@ MonoBehaviour:
     m_Key: PilotCabinInteriorScene/UI/Canvas/UnshowVideo/Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 1438488153399296
+    m_Key: MainScene/XR Origin (XR Rig)/Place on plane UI/Canvas/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1458153403555840
+    m_Key: MainScene/XR Origin (XR Rig)/Place on plane UI/Canvas/Prompts/Click On
+      Screen Prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1459592951603200
+    m_Key: MainScene/XR Origin (XR Rig)/Place on plane UI/Canvas/Prompts/Select Mode
+      Prompt
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

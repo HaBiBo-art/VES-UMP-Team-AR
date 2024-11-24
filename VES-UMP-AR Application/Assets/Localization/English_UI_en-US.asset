@@ -201,6 +201,18 @@ MonoBehaviour:
     m_Localized: Unshow Engine
     m_Metadata:
       m_Items: []
+  - m_Id: 1438488153399296
+    m_Localized: Select a Mode from the buttons below
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1458153403555840
+    m_Localized: 'Click On The Screen To Place The 3D Object '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1459592951603200
+    m_Localized: 'Select a Mode from the buttons below '
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

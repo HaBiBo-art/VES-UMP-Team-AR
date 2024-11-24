@@ -14,9 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: My String Assets
   m_TableCollectionNameGuidString: 27255ba59ce0db54b96e7a86ee9a5186
-  m_Entries: []
+  m_Entries:
+  - m_Id: 1436923631869952
+    m_Key: MainScene/XR Origin (XR Rig)/Place on plane UI/Canvas/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436937171083264
+    m_Key: MainScene/XR Origin (XR Rig)/Place on plane UI/Canvas/Text (TMP) 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 3494997271901110313
+    - rid: 3494997271901110314
   m_KeyGenerator:
     rid: 3494997157969396158
   references:
@@ -27,3 +37,23 @@ MonoBehaviour:
         asm: Unity.Localization}
       data:
         m_CustomEpoch: 1732095342703
+    - rid: 3494997271901110313
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 1436923631869952
+          m_TableCodes:
+          - en-US
+          - ms-MY
+        m_TypeString: TMPro.TMP_FontAsset, Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+    - rid: 3494997271901110314
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 1436937171083264
+          m_TableCodes:
+          - en-US
+          - ms-MY
+        m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
