@@ -16,7 +16,25 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: e4c2bb0608987ac469b5fc8781acb26b
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: e6d5900a98ae84b4eb40626bb4decabc
+    m_Address: Museum Malay Voice Over
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms-MY
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75ea04ba43befa04795e949730cdc519
+    m_Address: KTM 22 Voice Over Malay
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms-MY
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dab9fae71628a34d9f5b2d5ded37ff1
+    m_Address: JungleRoute Malay voice Over
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms-MY
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 297254dde6b49784685aadce4277e97a, type: 2}
   m_SchemaSet:

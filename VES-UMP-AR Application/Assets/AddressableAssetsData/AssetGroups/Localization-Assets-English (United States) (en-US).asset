@@ -16,7 +16,25 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 984d854d167263f48b295947270f0ab8
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 64cf582ac386df24b9cf4208a2b46e27
+    m_Address: Museum Voice Over Famel British
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-US
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e440669e72ece84fbb3de456fd91867
+    m_Address: KTM 22 Voice Over Female British
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-US
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b220149bf5e359749bd2e218ef2c6313
+    m_Address: JungleRoute VoiceOver Femail British
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-US
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 297254dde6b49784685aadce4277e97a, type: 2}
   m_SchemaSet:

@@ -23,10 +23,31 @@ MonoBehaviour:
     m_Key: MainScene/XR Origin (XR Rig)/Place on plane UI/Canvas/Text (TMP) 1
     m_Metadata:
       m_Items: []
+  - m_Id: 2990022129135616
+    m_Key: Museum Voice Over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2991876464488448
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_/Item1_Reduced/PlayVoiceOver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2996011444252672
+    m_Key: Voice Over Museum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3057125708312576
+    m_Key: KTM Voice Over
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3057911569887232
+    m_Key: Junle Route VoiceOver
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items:
     - rid: 3494997271901110313
     - rid: 3494997271901110314
+    - rid: 3494997366470082638
   m_KeyGenerator:
     rid: 3494997157969396158
   references:
@@ -56,4 +77,26 @@ MonoBehaviour:
           - en-US
           - ms-MY
         m_TypeString: UnityEngine.Material, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+    - rid: 3494997366470082638
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 2990022129135616
+          m_TableCodes:
+          - en-US
+          - ms-MY
+        - m_KeyId: 2996011444252672
+          m_TableCodes:
+          - en-US
+          - ms-MY
+        - m_KeyId: 3057125708312576
+          m_TableCodes:
+          - en-US
+          - ms-MY
+        - m_KeyId: 3057911569887232
+          m_TableCodes:
+          - en-US
+          - ms-MY
+        m_TypeString: UnityEngine.AudioClip, UnityEngine.AudioModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null

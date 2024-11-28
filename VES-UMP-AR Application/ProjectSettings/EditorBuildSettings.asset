@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/PassengerCabinInteriorScene.unity
-    guid: 224a17fc7844b1a4099c2965c467751b
-  - enabled: 1
     path: Assets/Scenes/PilotCabinInteriorScene.unity
     guid: ddd5e00e70a705c429c852b74c66934d
   m_configObjects:

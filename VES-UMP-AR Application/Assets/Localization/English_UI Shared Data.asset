@@ -181,6 +181,15 @@ MonoBehaviour:
       Prompt
     m_Metadata:
       m_Items: []
+  - m_Id: 2995595113443328
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2997099442515968
+    m_Key: WelcomeScreen/Canvas/InformationScreen/Scroll View/Viewport/Content/ListItems/List_Item_1_
+      1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
