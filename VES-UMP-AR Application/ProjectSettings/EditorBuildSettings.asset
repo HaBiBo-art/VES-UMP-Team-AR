@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/WelcomeScreen.unity
-    guid: 35bea516ac271304caccf4e2a28be1a4
+    guid: a2754c10dc37bb0488c2e6ad959c4ed9
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
