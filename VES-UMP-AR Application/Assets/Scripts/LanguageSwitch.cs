@@ -27,4 +27,22 @@ public class LanguageSwitcher : MonoBehaviour
             Debug.LogWarning($"Locale '{localeCode}' not found!");
         }
     }
+
+        public void SetLocaleToMY()
+        {
+            var locale = LocalizationSettings.AvailableLocales.GetLocale("ms-MY");
+
+            LocalizationSettings.SelectedLocale = locale;
+            Debug.Log($"Language switched to: {locale.Identifier.Code}");
+            
+        }
+
+    public void SetLocaleToUS()
+    {
+        var locale = LocalizationSettings.AvailableLocales.GetLocale("en-US");
+
+        LocalizationSettings.SelectedLocale = locale;
+        Debug.Log($"Language switched to: {locale.Identifier.Code}");
+
+    }
 }

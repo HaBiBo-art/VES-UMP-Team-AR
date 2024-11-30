@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Malay (Malaysia) (ms-MY)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Malay (Malaysia) (ms-MY)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e4c2bb0608987ac469b5fc8781acb26b
+  m_SerializeEntries:
+  - m_GUID: e6d5900a98ae84b4eb40626bb4decabc
+    m_Address: Museum Malay Voice Over
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms-MY
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75ea04ba43befa04795e949730cdc519
+    m_Address: KTM 22 Voice Over Malay
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms-MY
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6dab9fae71628a34d9f5b2d5ded37ff1
+    m_Address: JungleRoute Malay voice Over
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ms-MY
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 297254dde6b49784685aadce4277e97a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bca8cc0a4d0b2a64fb0a0da63517f8c9, type: 2}
+    - {fileID: 11400000, guid: 529f1d042fb554b4e94b48a823a2dea9, type: 2}

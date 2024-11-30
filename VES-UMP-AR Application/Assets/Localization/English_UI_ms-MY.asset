@@ -204,6 +204,26 @@ MonoBehaviour:
       Simulasi'
     m_Metadata:
       m_Items: []
+  - m_Id: 1438488153399296
+    m_Localized: Pilih Mod daripada butang di bawah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1458153403555840
+    m_Localized: Klik Pada Skrin Untuk Meletakkan Objek 3D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1459592951603200
+    m_Localized: Pilih Mod daripada butang di bawah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2995595113443328
+    m_Localized: GUID:27255ba59ce0db54b96e7a86ee9a5186
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2997099442515968
+    m_Localized: GUID:27255ba59ce0db54b96e7a86ee9a5186
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

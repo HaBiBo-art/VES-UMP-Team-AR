@@ -17,7 +17,31 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 27255ba59ce0db54b96e7a86ee9a5186, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 1436923631869952
+    m_Localized: 0fcce42cf61716443bd485c8b5083dd8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1436937171083264
+    m_Localized: '0fcce42cf61716443bd485c8b5083dd8[JotiOne-Regular SDF Material]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2990022129135616
+    m_Localized: 64cf582ac386df24b9cf4208a2b46e27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2996011444252672
+    m_Localized: 64cf582ac386df24b9cf4208a2b46e27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3057125708312576
+    m_Localized: 7e440669e72ece84fbb3de456fd91867
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3057911569887232
+    m_Localized: b220149bf5e359749bd2e218ef2c6313
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

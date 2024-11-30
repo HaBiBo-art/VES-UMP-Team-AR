@@ -27,6 +27,13 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fcce42cf61716443bd485c8b5083dd8
+    m_Address: JotiOne-Regular SDF
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en-US
+    - Locale-ms-MY
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 297254dde6b49784685aadce4277e97a, type: 2}
   m_SchemaSet:
